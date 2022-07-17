@@ -1567,7 +1567,7 @@ header .overlay ul li {
 @media screen and (max-width: 480px) {
     .poster__video .poster_sontung iframe {
         height: 200px;
-        width: 315px;
+        width: 250px;
     }
 }
 
