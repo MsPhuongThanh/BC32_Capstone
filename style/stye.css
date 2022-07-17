@@ -275,12 +275,56 @@ header .overlay ul li {
 }
 
 /* end Dark  */
+@media screen and (max-width: 1300px) {
+    header .overlay {
+        width: 100%;
+        height: 100%;
+    }
+    header .header__logo .navbar-brand {
+        margin-left: -88px;
+    }
+    header .header__list {
+        margin-right: 50px;
+    }
+}
 
 @media screen and (max-width: 1200px) {
     header .overlay {
         width: 100%;
         height: 100%;
     }
+    header .header__logo .navbar-brand {
+        margin-left: -100px;
+    }
+    header .header__list {
+        margin-right: 50px;
+    }
+}
+
+@media screen and (max-width: 1100px) {
+    header .overlay {
+        width: 100%;
+        height: 100%;
+    }
+    header .header__logo .navbar-brand {
+        margin-left: -100px;
+    }
+    header .header__list {
+        margin-right: 40px;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    header .header__logo .navbar-brand {
+        margin-left: -30px;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    header .header__logo .navbar-brand {
+        margin-left: -65px;
+    } 
+   
 }
 
 @media screen and (max-width: 800px) {
@@ -291,7 +335,7 @@ header .overlay ul li {
 
 @media screen and (max-width: 600px) {
     header .header__logo .navbar-brand {
-        margin-left: -65px;
+        margin-left: -58px;
     }
 
     header .form__button {
