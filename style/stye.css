@@ -863,3 +863,32 @@ header .overlay ul li {
     }
 }
 /* End Image */
+
+/* End Coppyright */
+@media screen and (max-width: 900px) {
+    .poster__video .poster_sontung  iframe {
+        height: 300px;
+        width: 415px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .poster__video .poster_sontung iframe {    
+        height: 300px;
+        width: 415px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .poster__video .poster_sontung iframe {
+        height: 200px;
+        width: 315px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .poster__video .poster_sontung iframe {
+        height: 150px;
+        width: 200px;
+    }
+}
