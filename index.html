@@ -6,7 +6,6 @@
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css"
         integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous" />
@@ -36,7 +35,6 @@
 </head>
 
 <body id="mybody">
-
     <!-- Phần Header -->
     <header>
         <div class="container">
@@ -71,9 +69,9 @@
                             <span class="navbar-toggler-icon"></span>
                         </button>
                     </nav>
-                </div>  
+                </div>
                 <!-- Menu -->
-                <div class="collapse overlay" id="collapsibleNavbar" >
+                <div class="collapse overlay" id="collapsibleNavbar">
                     <div class=" navbar-collapse">
                         <button type="button" class="overlay-close" id="button-close">
                             <i class="fa-solid fa-square-xmark" aria-hidden="true"></i>
@@ -425,7 +423,7 @@
         </div>
     </section>
     <!-- End image -->
-
+  
     <div class="poster__video py-3">
         <div class="container">
             <div class=" col-12 poster_sontung text-center">
@@ -451,15 +449,72 @@
         integrity="sha512-CEiA+78TpP9KAIPzqBvxUv8hy41jyI3f2uHi7DGp/Y/Ka973qgSdybNegWFciqh6GrN2UePx2KkflnQUbUhNIA=="
         crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 
-        
-        <script src="./libs/switch/switch.js"></script>
 
-        <!-- Button  -->
+    <script src="./libs/switch/switch.js"></script>
+    <!-- countup -->
+
+    <script src="./libs/countup/jquery.countup.min.js"></script>
+    <!-- Magific popup -->
+
+    <script src="./libs/magific/jquery.magnific-popup.js"></script>
+    <!-- owl -->
+    <script src="./libs/owl/owl.carousel.js"></script>
+
+    <!-- backtotop -->
+    <script src="./libs/backtotop/main.js"></script>
+    <script src="./libs/backtotop/util.js"></script>
+
+
+    <!-- Button  -->
     <script>
         document.getElementById("button-close").onclick = function () {
             $("#collapsibleNavbar").collapse("hide");
         };
     </script>
 
+    <!-- Counter -->
+
+    <script>
+        $('.counter').countUp();
+    </script>
+
+    <!-- magnific -->
+    <script>
+        $(document).ready(function () {
+            $(".popup-with-zoom-anim").magnificPopup({
+                type: "inline",
+                fixedContentPos: false,
+                fixedBgPos: true,
+                overflowY: "auto",
+                closeBtnInside: true,
+                preloader: false,
+                midClick: true,
+                removalDelay: 300,
+                mainClass: "my-mfp-zoom-in"
+            });
+        });
+    </script>
+
+    <!-- owl -->
+    <script>
+        $('.owl-carousel').owlCarousel({
+            loop: true,
+            margin: 4,
+            nav: false,
+            responsive: {
+                0: {
+                    items: 1
+                },
+                600: {
+                    items: 1
+                },
+
+            }
+        })
+    </script>
+
+
+
+</body>
 
 </html>
